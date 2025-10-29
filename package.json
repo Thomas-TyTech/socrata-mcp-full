@@ -1,0 +1,26 @@
+{
+  "name": "socrata-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Socrata Open Data API integration",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": ["mcp", "socrata", "open-data"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "typescript": "^5.9.3"
+  }
+}
